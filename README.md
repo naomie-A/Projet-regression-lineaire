@@ -41,7 +41,7 @@ L'archive contient le script `run_analysis.R`, le jeu de données `data/project.
 
 ## Accéder au projet
 
-Les fichiers du travail sont regroupés dans l'archive présente à la racine du dépôt :
+Le projet est disponible ici :
 
 📦 **[Télécharger l'archive du projet](Projet_mode%CC%80le_line%CC%81aire.zip)**
 
