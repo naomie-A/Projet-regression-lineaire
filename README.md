@@ -15,7 +15,7 @@ Le travail couvre les principales étapes d'une analyse : préparation des donn�
 - Construire un modèle de régression linéaire multiple.
 - Comparer des choix de variables à l'aide des critères **AIC** et **BIC**.
 - Examiner les résidus pour vérifier les hypothèses du modèle.
-- Mesurer la qualité des prédictions avec le **R²** et la **MSE** (erreur quadratique moyenne).
+- Mesurer la qualité des prédictions avec le **R²** et la **MSE**.
 
 ## Démarche
 
