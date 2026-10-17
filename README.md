@@ -2,7 +2,6 @@
 
 ![Langage](https://img.shields.io/badge/Langage-R-276DC3?logo=r&logoColor=white)
 ![Domaine](https://img.shields.io/badge/Domaine-Analyse%20de%20donn%C3%A9es-425466)
-![Méthode](https://img.shields.io/badge/M%C3%A9thode-R%C3%A9gression%20lin%C3%A9aire-2E8B57)
 
 ## Présentation
 
@@ -28,13 +27,17 @@ Le travail couvre les principales étapes d'une analyse : préparation des donn�
 | 4. Diagnostic | Analyse des résidus et validation des hypothèses |
 | 5. Évaluation | Calcul et interprétation du R² et de la MSE |
 
+## Fichiers du projet
+
+L'archive contient le script `run_analysis.R`, le jeu de données `data/project.csv` et un rapport détaillé (`report.qmd` et `report.html`).
+
 ## Outils et notions mobilisés
 
-- **R** : analyse statistique et modélisation.
+- **R / RStudio** : analyse statistique et modélisation.\n- **Packages présents dans le script** : `ggplot2`, `GGally`, `corrplot`, `patchwork` et `DescTools`.
 - **Régression linéaire multiple** : étude de la relation entre une note et plusieurs variables explicatives.
 - **AIC / BIC** : critères d'aide à la sélection de modèles.
 - **Analyse des résidus** : diagnostic de l'ajustement.
-- **R² / MSE** : indicateurs de performance.
+- **R² ajusté, MSE et RMSE** : indicateurs de performance. Le script compare aussi plusieurs modèles et réalise des prédictions sur des données de test.
 
 ## Accéder au projet
 
@@ -45,10 +48,7 @@ Les fichiers du travail sont regroupés dans l'archive présente à la racine du
 Pour consulter le travail :
 1. Télécharger l'archive.
 2. Extraire son contenu.
-3. Repérer les scripts et éventuels fichiers de données.
-4. Ouvrir les fichiers R dans un environnement adapté, par exemple RStudio, puis suivre les indications contenues dans l'archive.
-
-> **Note :** les noms exacts des scripts, les dépendances et les résultats chiffrés ne sont pas documentés ici, car le contenu de l'archive n'a pas été vérifié.
+3. Ouvrir le dossier `Linear model project` dans RStudio.\n4. Consulter le rapport `report.html` ou lancer `run_analysis.R` depuis le dossier du projet, avec les packages R nécessaires installés.
 
 ## Compétences illustrées
 
